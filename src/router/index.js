@@ -22,8 +22,7 @@ const router = createRouter({
       path: '/produto/:id',
       name: 'ProductDetail',
       component: ProductDetailView,
-      props: true,
-      
+      props: true
     }
   ]
 })

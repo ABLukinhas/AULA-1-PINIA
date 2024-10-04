@@ -1,7 +1,6 @@
 <script setup>
-import { useCounterStore } from "@/stores/counter";
-const counterStore = useCounterStore();
-
+import { useCounterStore } from '@/stores/counter'
+const counterStore = useCounterStore()
 </script>
 <template>
   <div class="about">
@@ -10,7 +9,6 @@ const counterStore = useCounterStore();
     <h2>contador:{{ counterStore.count }}</h2>
     <h2>contador:{{ counterStore.doubleCount }}</h2>
     <button @click="counterStore.increment">+</button>
-
   </div>
 </template>
 
